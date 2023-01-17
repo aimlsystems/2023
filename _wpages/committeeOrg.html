@@ -1,0 +1,151 @@
+---
+layout: other
+title: Organising Committee
+menutitle: Organizing Committee
+---
+
+{% for committee in site.data.oc_mem %}
+{% if committee[1].size > 1 %}
+<h2 class="nt-header">{{ committee[0] }} Co-chairs</h2>
+{% else %}
+<h2 class="nt-header">{{ committee[0] }} Chair</h2>
+{% endif %}
+<div class="row">
+{% assign sm-modulo = committee[1].size | modulo: 2 %}
+{% assign md-modulo = committee[1].size | modulo: 3 %}
+{% for mem in committee[1] %}
+{% assign sm-offset = "0" %}
+{% if forloop.last and sm-modulo==1 %}
+{% assign sm-offset = "3" %}
+{% endif %}
+{% assign md-offset = "0" %}
+{% if forloop.last and md-modulo==1 %}
+{% assign md-offset = "4" %}
+{% elsif forloop.rindex==2 and md-modulo==2 %}
+{% assign md-offset = "2" %}
+{% endif %}
+
+				<div class="col-6 col-12-medium">
+					<div class="row">
+						<div class="col-3">
+							<img class="img-fuild" style="max-width: 120px; max-height: auto;" src="{{ site.baseurl }}/images/people/{{ site.data.people[mem][3] | default: "avtar.png" }}?{{ site.time | date: "%s" }}">
+						</div>
+						<div class="col-9">
+							<div class="nt-feature-pad">
+								<h3><a href="{{ site.data.people[mem][2] | default: "#" }}" target="_blank">{{ site.data.people[mem][0] | default: mem }}</a></h3>
+								<p>{{ site.data.people[mem][1] | default: ""}}</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+<!-- <div class="col-12 offset-sm-{{ sm-offset }} col-sm-6 offset-md-{{ md-offset }} col-md-4 p-4">
+    <div class="col-6 offset-3"><img src="{{ site.baseurl }}/images/peoples/{{ site.data.peoples[mem][3] | default: "avtar.png" }}?{{ site.time | date: "%s" }}" class="img-fluid rounded-circle shadow" style="width: 100%;" ></div>
+    <h5 class="text-center"><a href="{{ site.data.peoples[mem][2] | default: "#" }}" target="_blank">{{ site.data.peoples[mem][0] | default: mem }}</a></h5>
+    <h5 class="text-center">{{ site.data.peoples[mem][1] | default: ""}}</h5>
+</div> -->
+{% endfor %}
+
+</div>
+{% endfor %}
+
+<!-- 
+				<h2 class="nt-header">General Cochairs</h2> 
+				<div class="col-6 col-12-medium">
+					<div class="row">
+						<div class="col-3">
+							<img class="img-fuild" src="{{ ste.baseurl }}/images/peoples/avtar.png">
+						</div>
+						<div class="col-9">
+							<div class="nt-feature-pad">
+								<h3>Mattis velit diam vulputate</h3>
+								<p>Eget mattis at, laoreet vel et velit aliquam diam ante, aliquet sit amet vulputate et magna feugiat laoreet vel velit lorem.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-6 col-12-medium">
+					<div class="row">
+						<div class="col-3">
+							<img class="img-fuild" src="{{ ste.baseurl }}/images/peoples/avtar.png">
+						</div>
+						<div class="col-9">
+							<div class="nt-feature-pad">
+								<h3>Mattis velit diam vulputate</h3>
+								<p>Eget mattis at, laoreet vel et velit aliquam diam ante, aliquet sit amet vulputate et magna feugiat laoreet vel velit lorem.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-6 col-12-medium">
+					<div class="row">
+						<div class="col-3">
+							<img class="img-fuild" src="{{ ste.baseurl }}/images/peoples/avtar.png">
+						</div>
+						<div class="col-9">
+							<div class="nt-feature-pad">
+								<h3>Mattis velit diam vulputate</h3>
+								<p>Eget mattis at, laoreet vel et velit aliquam diam ante, aliquet sit amet vulputate et magna feugiat laoreet vel velit lorem.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+				<h2 class="nt-header">Technical Program Committee Co-Chairs</h2>
+				<div class="col-6 col-12-medium">
+					<div class="row">
+						<div class="col-3">
+							<img class="img-fuild" src="{{ ste.baseurl }}/images/peoples/avtar.png">
+						</div>
+						<div class="col-9">
+							<div class="nt-feature-pad">
+								<h3>Mattis velit diam vulputate</h3>
+								<p>Eget mattis at, laoreet vel et velit aliquam diam ante, aliquet sit amet vulputate et magna feugiat laoreet vel velit lorem.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-6 col-12-medium">
+					<div class="row">
+						<div class="col-3">
+							<img class="img-fuild" src="{{ ste.baseurl }}/images/peoples/avtar.png">
+						</div>
+						<div class="col-9">
+							<div class="nt-feature-pad">
+								<h3>Mattis velit diam vulputate</h3>
+								<p>Eget mattis at, laoreet vel et velit aliquam diam ante, aliquet sit amet vulputate et magna feugiat laoreet vel velit lorem.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-6 col-12-medium">
+					<div class="row">
+						<div class="col-3">
+							<img class="img-fuild" src="{{ ste.baseurl }}/images/peoples/avtar.png">
+						</div>
+						<div class="col-9">
+							<div class="nt-feature-pad">
+								<h3>Mattis velit diam vulputate</h3>
+								<p>Eget mattis at, laoreet vel et velit aliquam diam ante, aliquet sit amet vulputate et magna feugiat laoreet vel velit lorem.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-6 col-12-medium">
+					<div class="row">
+						<div class="col-3">
+							<img class="img-fuild" src="{{ ste.baseurl }}/images/peoples/avtar.png">
+						</div>
+						<div class="col-9">
+							<div class="nt-feature-pad">
+								<h3>Mattis velit diam vulputate</h3>
+								<p>Eget mattis at, laoreet vel et velit aliquam diam ante, aliquet sit amet vulputate et magna feugiat laoreet vel velit lorem.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+ -->

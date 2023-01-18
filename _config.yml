@@ -11,7 +11,7 @@ permalink: /:basename/
 title:            The Third International Conference on AI-ML-Systems
 tagline:          An Initiative of the COMSNETS Association
 url:              https://www.aimlsystems.org
-baseurl:          "/2023"
+baseurl:          "/2022"
 
 author:
   name:           'Abhijit Mondal'
@@ -27,7 +27,7 @@ github:
   repo:           https://github.com/aimlsystems/
 
 
-repository: aimlsystems/2023
+repository: aimlsystems/2022
 
 
 collections:
@@ -35,7 +35,7 @@ collections:
     output: true
     permalink: /:path
 
-shortname: "AIMLSystems'23"
+shortname: "AIMLSystems'22"
 
 
 cfp_pdf: 

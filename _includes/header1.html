@@ -156,6 +156,38 @@
 			<!-- Nav -->
 			<br>
 			<nav id="nav">
+				<style type="text/css">
+					.marquee {
+						position: absolute;
+						top: 0;
+						left: 0;
+						width: 100%;
+						height: 50px;
+						color: #fff;
+						padding: 10px;
+						font-size: 20px;
+						overflow: hidden;
+						box-sizing: border-box;
+						animation: marquee 15s linear infinite;
+						cursor: pointer;
+						background-color: transparent;
+					}
+			
+					.marquee span {
+						background-color: #176adf;
+						padding: 0 5px;
+					}
+			
+					@keyframes marquee {
+						0% { transform: translateX(100%); }
+						100% { transform: translateX(-100%); }
+					}
+				</style>
+				<br>
+				<div class="container">
+					<div class="marquee" onclick="location.href='{{ site.baseurl }}/callResearch';"><span>CALL FOR PAPERS</span></div>
+				</div>
+				<br>
 				<ul>
 					<li class="current" style="white-space: nowrap;"><a href="{{ site.baseurl }}/">Home</a></li>
 

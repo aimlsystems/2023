@@ -115,9 +115,9 @@ All accepted papers will be presented as posters at AIMLSystems 2023, but a sele
 
 #### Ethics
 {:.text-justify.pe-4}
-* **Plagiarism Policy**: Submission of papers to AIMLSystems 2022 carries with it the implied agreement that the paper represents original work. We will follow the ACM Policy on Plagiarism, Misrepresentation, and Falsification -- see [https://www.acm.org/publications/policies/plagiarism-overview](https://www.acm.org/publications/policies/plagiarism-overview). All submitted papers will be subjected to a "similarity test". Papers achieving a high similarity score will be examined and those that are deemed unacceptable will be rejected without a formal review. We also expect to report such unacceptable submissions to the superiors of each of the authors.
+* **Plagiarism Policy**: Submission of papers to AIMLSystems 2023 carries with it the implied agreement that the paper represents original work. We will follow the ACM Policy on Plagiarism, Misrepresentation, and Falsification -- see [https://www.acm.org/publications/policies/plagiarism-overview](https://www.acm.org/publications/policies/plagiarism-overview). All submitted papers will be subjected to a "similarity test". Papers achieving a high similarity score will be examined and those that are deemed unacceptable will be rejected without a formal review. We also expect to report such unacceptable submissions to the superiors of each of the authors.
 {:.text-justify.pe-4}
-* Submission of papers to AIMLSystems 2022 also carries with it the implied agreement that one or more of the listed authors will register for and attend the conference and present the paper. Papers not presented at the conference will not be included in the final program or in the digital proceedings. Therefore, authors are strongly encouraged to plan accordingly before deciding to submit a paper.
+* Submission of papers to AIMLSystems 2023 also carries with it the implied agreement that one or more of the listed authors will register for and attend the conference and present the paper. Papers not presented at the conference will not be included in the final program or in the digital proceedings. Therefore, authors are strongly encouraged to plan accordingly before deciding to submit a paper.
 
 #### Conflicts of Interest
 {:.text-justify.pe-4}

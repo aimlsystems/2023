@@ -1,0 +1,123 @@
+Research:
+  -
+    speakers:
+      - Christopher Matthew De Sa
+    title: "TBA"
+    video: TBA
+    abstract: 
+      -
+        - "TBA"
+
+
+  # -
+  #   speakers:
+  #     - Cynthia Rudin
+  #   title:  "Do Simpler Machine Learning Models Exist and How Can We Find Them?"
+  #   video: Not availabe right now
+  #   abstract:
+  #     -
+  #       - "While the trend in machine learning has tended towards building more complicated (black box) models, such models are not as useful for high stakes decisions - black box models have led to mistakes in bail and parole decisions in criminal justice, flawed models in healthcare, and inexplicable loan decisions in finance. Simpler, interpretable models would be better."
+  #       - "Thus, we consider questions that diametrically oppose the trend in the field: for which types of datasets would we expect to get simpler models at the same level of accuracy as black box models? If such simpler-yet-accurate models exist, how can we use optimization to find these simpler models? In this talk, I present an easy calculation to check for the possibility of a simpler (yet accurate) model before computing one."
+  #       - "This calculation indicates that simpler-but-accurate models do exist in practice more often than you might think. Also, some types of these simple models are (surprisingly) small enough that they can be memorized or printed on an index card."
+
+  # -      
+  #   speakers:
+  #     - Max Welling
+  #   title: "The PDE Prior for Deep Learning"
+  #   video: Not availabe right now
+  #   abstract:
+  #     -
+  #       - "There is an interesting new field developing at the intersection of the physical sciences and deep learning, sometimes called AI4Science." 
+  #       - " In one direction, tools developed in the AI community are used to solve problems in science, such as protein folding, molecular simulation, and so on."
+  #       - " But also in the other direction, deep insights from mathematics and physics are inspiring new DL architectures, such as Neural ODE solvers, and equivariance."
+  #       - " In this talk I will start with mapping out some of the opportunities at this intersection and subsequently dive a little deeper into PDE solving."
+  #       - " Also, in this subfield, cross fertilization has already happened both ways: people have used DL tools to successfully solve PDE equations much faster than with traditional solvers. "
+  #       - " But reversely, there are also efforts to use PDEs as \"infinite width\", functional representations of layers in a deep NN architecture. "
+  #       - " The latter is helpful for instance to become independent of gridding choices. In the second half of this talk I will explain our most recent efforts to solve PDEs faster and more accurately using DL, and reversely, new ways to use PDEs as an approximate equivariance prior."   
+
+  # -
+  #   speakers:
+  #      - Nikko Strom
+  #   title: "Edge computing in Alexa"
+  #   video: Not availabe right now
+  #   abstract:
+  #     -
+  #       - In the evolution of computing, we went from mainframes and minicomputers, to personal computers, the cloud, mobile devices, the internet of things, and smart ambient devices like the Amazon Echo. Along the way, new and old workloads are continuously rebalanced between the central server, the cloud, user terminals, and edge devices. Currently, while many workloads are being migrated to the cloud, tasks that require fast responsiveness are increasingly being performed on edge devices, including machine learning tasks such as speech recognition and computer vision. In this talk, I will discuss how Amazon Devices are developing hardware and software solutions that enable on-device processing (or enable workloads to be processed on device) and support new features that are only possible with edge computing.        
+
+  # -
+  #   speakers:
+  #     - Partha Pratim Talukdar
+  #   title: "Scaling Natural Language Processing for the Next Billion Users"
+  #   video: Not availabe right now
+  #   abstract:
+  #     -
+  #       - Even though there are more than 7000 languages in the world, language technologies are available only for a handful of these languages. Lack of training data poses a significant challenge in developing language technologies for these languages. Recent advances in Multilingual Representation Learning presents an opportunity to transfer knowledge and supervision from high web-resource languages to languages with lower web-resources.  
+  #       - In this talk, I shall present an overview of research in this exciting and emerging area in the NLU group at Google Research India.
+
+  # -
+  #   speakers:
+  #     - Sunita Sarawagi
+  #   title: "Natural Language Interfaces to Database Systems: the deep learning way and the challenges therein"
+  #   video: Not availabe right now
+  #   abstract:
+  #     -
+  #       - Recently deep neural models have been shown to surpass traditional rule-based methods for converting natural text to SQL in terms of their capacity of handling diverse natural text. State-of-the-art Text2SQL models leverage large language models and labeled data spanning hundreds of schemas and have yielded significantly higher accuracy on benchmarks compared to rule-based systems. However, when we look beyond leaderboard numbers, several limitations surface.
+  #       - Text2SQL systems fail to generalize to real-world schemas without additional fine-tuning with schema-specific labeled data which is often unavailable. This has led to many proposals to generate synthetic (Text,SQL) pairs via another deep model for SQL2Text conversion.  
+  #       - The data they generate lacks the diversity of natural queries, and we explore better methods that are hybrids of earlier template-based and neural methods.
+  #       - Another challenge is on-the-fly incorporation of feedback from users. Memory-based models are a natural choice for online quick adaptation but integrating user feedback with blackbox deep models is non-trivial. The last challenge we discuss is  detecting and interactively correcting  a user query that is wrongly interpreted when the user does not understand SQL. 
+
+  # -
+  #   speakers:
+  #     - Thorsten Joachims
+  #   title: "Beyond Engagement: Optimizing the Long-Term Sustainability of Online Platforms"
+  #   video: Not availabe right now
+  #   abstract:
+  #     -
+  #       - The feedback that users provide through their choices (e.g. clicks, purchases) is one of the most common types of data readily available for training autonomous systems. However, naively training systems based on choice data may only improve short-term engagement, but not the long-term sustainability of the platform. In this talk, I will discuss some of the pitfalls of engagment-maximization, and explore methods that allow us to supplement engagement with additional criteria that are not limited to individual action-response metrics. The goal is to give platform operators a new set of macroscopic interventions for steering the dynamics of the platform, providing a new level of abstraction that goes beyond the engagement with individual recommendations or rankings.
+  
+
+
+  
+#Industry Insights:
+  #Anand Deshpande:
+  #  title: Deploying Machine Learning to help make Better Decisions
+  #  abstract:
+  #    - 
+  #      - In August 2011, Marc Andressen wrote a prophetic article in the Wall Street
+  #      - Journal, explaining how he believed industries would transform as “Software
+  #      - was Eating the World.” Over the last ten years, this theme has played out as
+  #      - Companies across sectors have focused on Digital Transformation. The first
+  #      - iteration of Digital Transformation focused on building better experiences for
+  #      - stakeholders. Bringing data together was essential for creating better
+  #      - experiences, which led to deploying APIs, data lakes and other data
+  #      - middleware.
+  #    -
+  #      - The success of Digital Transformation has resulted in data systems with
+  #      - better experiences. However, having fancy dashboards and better user
+  #      - experiences has not necessarily provided insights to individuals to make
+  #      - better decisions. Digital Transformation 2.0 will address this and will be about
+  #      - assisting stakeholders in making better decisions.
+  #      - In this session, I propose to share how machine learning and artificial
+  #      - intelligence can exploit the data infrastructure we have set up to help make
+  #      - better decisions.
+  #    -
+  #      - We have created an internal data lake that collects data from different internal
+  #      - data sources. In the last three years, our team at Persistent Systems has
+  #      - experimented with building systems that embed machine learning and
+  #      - artificial intelligence in our processes and automation to deliver precise
+  #      - guidance to stakeholders to make better decisions. As we started our
+  #      - experiments focusing on better decisions, we realized that the data we had
+  #      - collected was not best suited to derive our insights. We also observed that
+  #      - traditional business intelligence dashboards can be overwhelming and do not
+  #      - necessarily provide the insights for better decisions.
+  #    -
+  #      - In this session, I propose sharing what we have done and what we learned
+  #      - from these experiments as we embedded machine learning in our processes
+  #      - and as part of our automation infrastructure. This has helped our team get
+  #      - better insights precisely when needed.
+    
+
+  #Daniel Keller:
+  #  -
+  #  -
+

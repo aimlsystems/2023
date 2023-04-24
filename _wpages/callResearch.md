@@ -145,7 +145,8 @@ A paper submitted to AIMLSystems can not be under review at any other conference
 
 #### Technical Program Co-Chairs
 R. Venkatesh Babu (IISc Bangalore, India) \
-Dileep Kalathil (Texas A&M University, USA)
+Dileep Kalathil (Texas A&M University, USA) \
+Deepti Ghadiyaram (Meta AI, USA)
 
 
 

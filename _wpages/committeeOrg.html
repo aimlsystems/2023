@@ -11,8 +11,9 @@ menutitle: Organizing Committee
 <h2 class="nt-header">{{ committee[0] }} Chair</h2>
 {% endif %}
 <div class="row">
-{% assign sm-modulo = committee[1].size | modulo: 2 %}
+{% assign sm-modulo = committee[1].size | modulo: 2 %} <!-- Remove this and the next line -->
 {% assign md-modulo = committee[1].size | modulo: 3 %}
+<!-- <div class="row d-flex justify-content-center"> -->
 {% for mem in committee[1] %}
 {% assign sm-offset = "0" %}
 {% if forloop.last and sm-modulo==1 %}

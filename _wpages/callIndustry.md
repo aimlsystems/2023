@@ -41,12 +41,14 @@ Topics of interest include AI/ML systems machine learning applications in all ma
 **Reviewing process:** All submissions will be single blind. Authors are allowed to post their paper on arXiv or other public forums. Key dates related to the reviewing process will be shared soon.
 
 #### Important Dates
-* Submission deadline: July 5, 2022
+<!-- * Submission deadline: July 12, 2023 -->
 <!-- * ~~Submission deadline: July 12, 2022, 11:59 pm AOE.  (Firm Deadline)~~ -->
-* Author notifications: August 30, 2022
+<div class="text-attention" style="background-color: yellow; width: 450px">
+<ul><li>Paper submissions due: July 12, 2023, 11:59 pm AOE.</li></ul></div>
+* Author notifications: August 30, 2023
 <!-- * ~~Author notifications: September 9, 2022~~ -->
-* Camera ready deadline: September 19, 2022
-* Conference Dates:  October 25-28, 2022
+* Camera ready deadline: September 20, 2023
+* Conference Dates:  October 25-28, 2023
 
 {:.text-justify}
 **Submission format:** Research papers must not exceed 6 pages, including any appendix, with an unlimited number of pages containing only bibliography. Only electronic submissions in PDF format using the ACM sigconf template (see [https://www.acm.org/publications/proceedings-template](https://www.acm.org/publications/proceedings-template)) will be considered. 

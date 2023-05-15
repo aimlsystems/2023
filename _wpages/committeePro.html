@@ -1,0 +1,39 @@
+---
+layout: other
+title: Program Committee | Research Track
+menutitle: Program Committee Research Track
+---
+
+<!-- <br> -->
+<!--<h3>{{ page.title }}</h3>-->
+<!-- <br> -->
+<!--<center><p> To be Updated soon<p></center>-->
+<div class="row">
+{% for pc in site.data.tpc_mem %}
+    <div class="col-6 col-12-medium">{{ pc }}</div>
+{% endfor %}
+</div>
+<!-- 
+<table>
+{% for pc in site.data.tpc_mem %}
+{%- assign mod = forloop.index | modulo: 2 -%}
+{% if mod == 1 %}
+<tr>
+{% else %}
+<td>&nbsp;</td>
+{% endif %}
+<td>{{ pc }}</td>
+{% if mod == 0 %}
+</tr>
+{% else %}
+{%- if forloop.last -%}
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+{%- endif -%}
+{% endif %}
+{% endfor %}
+</table> -->
+
+
+<br>

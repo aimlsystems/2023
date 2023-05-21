@@ -60,7 +60,7 @@ Please select the “Industry and Applications” track on CMT.
 **Program Committee**
 *  [Program Committee]({{ site.baseurl }}/committeePro_Industry) -->
 
-#### Industry Track Chairs:
+#### Industry Track Co-Chairs:
 
 {% include function_chairs.html committee="Industry Track" %}
 
